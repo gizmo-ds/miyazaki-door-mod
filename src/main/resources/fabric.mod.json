@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "miyazaki-door",
+  "version": "${version}",
+  "name": "Miyazaki Door",
+  "description": "Does not open from this side",
+  "authors": [
+    {
+      "name": "Gizmo",
+      "contact": {
+        "homepage": "https://github.com/gizmo-ds"
+      }
+    }
+  ],
+  "contact": {
+    "homepage": "https://github.com/gizmo-ds/miyazaki-door-mod",
+    "sources": "https://github.com/gizmo-ds/miyazaki-door-mod",
+    "issues": "https://github.com/gizmo-ds/miyazaki-door-mod/issues"
+  },
+  "license": "MIT",
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.donate": "https://afdian.com/a/gizmo"
+      }
+    }
+  },
+  "icon": "assets/miyazaki-door/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.aika.miyazaki_door.MiyazakiDoor"
+    ],
+    "client": [
+      "dev.aika.miyazaki_door.MiyazakiDoorClient"
+    ],
+    "fabric-datagen": [
+      "dev.aika.miyazaki_door.MiyazakiDoorDataGenerator"
+    ]
+  },
+  "mixins": [
+    "miyazaki-door.mixins.json",
+    {
+      "config": "miyazaki-door.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">0.14.21",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

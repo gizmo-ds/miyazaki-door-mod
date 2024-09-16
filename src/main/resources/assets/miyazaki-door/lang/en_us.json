@@ -1,0 +1,7 @@
+{
+  "modmenu.nameTranslation.miyazaki-door": "Miyazaki Door",
+  "modmenu.descriptionTranslation.miyazaki-door": "Does not open from this side",
+  "miyazaki-door.message.cant_open": "Does not open from this side",
+  "itemGroup.miyazaki_door": "Miyazaki Door",
+  "block.miyazaki-door.miyazaki_door": "Miyazaki Door"
+}

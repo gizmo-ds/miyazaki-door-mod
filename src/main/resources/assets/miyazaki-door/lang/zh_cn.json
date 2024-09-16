@@ -1,0 +1,7 @@
+{
+  "modmenu.nameTranslation.miyazaki-door": "宫崎门",
+  "modmenu.descriptionTranslation.miyazaki-door": "不能从这一侧打开",
+  "miyazaki-door.message.cant_open": "不能从这一侧打开",
+  "itemGroup.miyazaki_door": "宫崎门",
+  "block.miyazaki-door.miyazaki_door": "宫崎门"
+}
